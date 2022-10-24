@@ -1,0 +1,359 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.page {
+  
+  width: 750px;
+  margin: 0 auto;
+  
+}
+
+
+body{
+
+  background: #EFEFEF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px; 
+
+}
+
+body::before {
+  
+  content:'';
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  background: #535971;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+header{
+  
+  margin-top: 140px;
+  
+}
+
+header h1{
+  
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 18px;
+  color: #FFFFFF;
+  
+}
+
+
+header p{
+  
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
+  
+}
+
+form{
+  
+  background: #FAFAFC;
+  min-height: 300px;
+  margin-top: 38px;
+  border-radius: 20px 20px 0 0;
+  padding: 64px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  
+  
+}
+
+fieldset{
+
+border: none;
+
+}
+
+
+.fieldset-wrapper,
+.fieldset-wrapper2 {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset legend{
+  
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+  width: 100%;
+  
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E6E6F0;
+}
+
+fieldset .imput-wrappername{
+
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+fieldset .imput-wrapperlastname{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+fieldset .name{
+
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.imput-wrapper,
+.imput-wrappermentorname
+{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.imput-wrappername input,
+.imput-wrapperlastname input
+{
+  
+  background: #FAFAFC;
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  
+  width: 300px;
+  height: 56px;
+  padding: 0 24px;
+  
+  
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  
+  color: #6C6A71;
+  margin-top: 8px;
+  
+}
+
+.imput-wrapper input,
+.imput-wrappermentorname input
+{
+
+  background: #FAFAFC;
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  
+
+  height: 56px;
+  padding: 0 24px;
+  
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  
+  color: #6C6A71;
+  margin-top: 8px;
+
+}
+
+.imput-wrappername,
+.imput-wrapperlastname,
+.imput-wrapper,
+.imput-wrappermentorname,
+.imput-wrapperfirstdate,
+.imput-firsttime1,
+.imput-aftertime1
+{
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+
+  color: #4E4958;
+
+
+}
+
+.imput-wrapper label span,
+.imput-wrappermentorname label span,
+.imput-wrapperfirstdate label span{
+  
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  
+  color: #C1BCCC;
+  
+  margin-left: 7px;
+  
+}
+
+h2{
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+  width: 100%;
+  
+padding: 32px 0px 11px 0px;
+
+
+}
+
+.imput-wrapperfirstdate,
+.imput-firsttime1,
+.imput-aftertime1
+{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.date{
+
+  display: flex;
+  justify-content: space-between;
+  
+
+
+}
+
+.firsttime{
+
+  display: flex;
+  gap: 10px;
+}
+
+
+.imput-wrapperfirstdate input
+
+{
+
+
+background: #FAFAFC;
+  
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+
+width: 300px;
+height: 56px;
+padding: 0 24px;
+
+
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #6C6A71;
+margin-top: 8px;
+
+
+}
+
+.imput-firsttime1 input,
+.imput-aftertime1 input {
+
+  background: #FAFAFC;
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  
+  width: 140px;
+  height: 56px;
+  padding: 0 24px;
+  
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  
+  color: #6C6A71;
+  margin-top: 8px;
+
+}
+
+.h2-2 {
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+  width: 100%;
+  
+
+
+}
+
+.form-buttons {
+  
+  
+  background: #535971;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  padding: 55px 71px;
+  margin-bottom: 100px;
+  
+  border-top: 1px solid #535971;
+  border-radius: 0 0 20px 20px;
+  
+}
+
+footer .button {
+  
+  height: 50px;
+  background: #FF5374;
+  border-radius: 8px;
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  border-radius: 20px;
+  border: none;
+  
+}
+
+footer .button:hover{
+  
+  background: #f0486a;
+  
+}
